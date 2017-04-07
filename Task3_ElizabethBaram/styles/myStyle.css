@@ -1,0 +1,250 @@
+@import url(http://fonts.googleapis.com/earlyaccess/alefhebrew.css);
+
+body 
+{
+    font-family: "Alef Hebrew",
+               “Helvetica Neue”,
+               Helvetica,
+               Arial,
+               sans-serif;
+    direction:rtl;
+    margin-top: 15px;
+
+}
+
+#container {
+    margin: 30px auto;
+    width: 960px;
+}
+
+footer {
+    display: block;
+    color: #85b6d1;
+    padding: 5px;
+    font-size: 11px;
+    text-align: center;
+    margin: 130px auto;
+}
+
+#hey {
+    background-image: url(../images/me_blinking.png);
+    background-repeat: no-repeat;
+    height: 310px;
+    width: 246px;
+    background-position: left;
+    margin-right: 160px;
+}
+
+    #hey:hover {
+    background-position: right;
+    }
+
+span {
+    margin-right: 270px;
+    margin-top: 112px;
+    font-size: 100pt;
+    font-weight: bold;
+    height: 200px;
+    width: 400px;
+    display: inline-block;
+    color: #1d3c54;
+    line-height: 70%;
+    text-shadow: 3px 3px 3px #bababa;
+}
+
+.welcome {
+    font-size: 12pt;
+    background-color: #1d3c54;
+    margin-bottom: 10px;
+    margin-right: 158px;
+    margin-top:15px;
+    color:white;
+    text-align: center;
+    width: 630px;
+    height: 50px;
+    padding: 7px;
+   border-radius: 10px;
+}
+
+#nav1 ul {
+    list-style: none;
+    width: 470px; 
+    margin-right: 285px;
+}
+
+    #nav1 ul li {
+        display: inline-block;
+        float: right;
+    }
+
+        #nav1 ul li a {
+            display: block;
+            color: #1d3c54;
+            text-decoration: none;
+            text-align: center;
+            width: 80px;
+            height: 30px;
+            Padding-top: 10px;
+        }
+
+            #nav1 ul li a:hover {
+               color: #3097D2;
+               -webkit-transition: all 1s ease;
+               -moz-transition: all 1s ease;
+               -ms-transition: all 1s ease;
+               -o-transition: all 1s ease;
+               transition: all 1s ease;
+            }
+
+            #nav1 ul li a:active {
+               color: lightslategrey;
+               font-weight: bold;
+            }
+
+        #nav1 ul li ul {
+            display: none;
+            position: absolute;
+        }
+
+        #nav1 ul li:hover ul {
+            display: block;
+            width: 120px;
+        }
+
+
+#work {
+    margin: 40px 260px;
+    display: inline-block;
+    background-color: #15a2e0;
+    font-size: 15pt;
+    color: white;
+    padding: 20px;
+    width: 420px;
+    height: 310px;
+   border-radius: 10px;
+   line-height: 100%;
+}
+
+
+#edo {
+    margin: 40px 260px;
+    display: inline-block;
+    background-color: #1d3c54;
+    font-size: 15pt;
+    color: white;
+    padding: 20px;
+    width: 420px;
+    height: 350px;
+   border-radius: 10px;
+   line-height: 100%;
+}
+
+#hobby {
+    margin: 40px 260px;
+    display: inline-block;
+    background-color: #15a2e0;
+    font-size: 15pt;
+    color: white;
+    padding: 20px;
+    width: 420px;
+    height: 165px;
+   border-radius: 10px;
+   line-height: 100%;
+}
+
+#talk {
+    margin: 40px 260px;
+    display: inline-block;
+    background-color: #1d3c54;
+    font-size: 15pt;
+    color: white;
+    padding: 20px;
+    width: 420px;
+    height: 100px;
+   border-radius: 10px;
+   line-height: 100%;
+}
+
+p {
+    text-align: justify;
+    font-size: 12pt;
+}
+
+h1 {
+    font-size: 14pt;
+    margin-top: 8px;
+    margin-bottom: 15px;
+    color: white;
+    font-weight: bold;
+}
+
+#Link {
+    margin: auto 110px;
+    width: 200px;
+}
+
+.whats {
+    background-image: url(../images/whatsapp_30_60.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+    background-position: right;
+    display: inline;
+    float: left;
+    margin:10px;
+}
+
+.whats:hover {
+    background-position: left;
+
+}
+
+.face {
+    background-image: url(../images/facebook_30_60.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+    background-position: right;
+    display: inline;
+    float: left;
+    margin:10px;
+}
+
+.face:hover {
+    background-position: left;
+}
+
+.mail {
+    background-image: url(../images/gmail_24_60.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+    background-position: right;
+    display: inline;
+    float: left;
+    margin:10px;
+}
+
+.mail:hover {
+    background-position: left;
+}
+
+.linkd {
+    background-image: url(../images/linkedin_30_60.png);
+    background-repeat: no-repeat;
+    height:30px;
+    width: 30px;
+    background-position: right;
+    display: inline;
+    float: left;
+    margin:10px;
+}
+
+.linkd:hover {
+    background-position: left;
+
+}
+
+a {
+    text-decoration: none;
+}
